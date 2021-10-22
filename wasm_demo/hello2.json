@@ -1,0 +1,17 @@
+{
+    "metadata":{
+        "name":"hello2"
+    },
+    "image":{
+        "image":"docker.io/library/busybox:latest"
+    },
+    "mounts":[
+        {
+            "container_path":"/share",
+            "host_path":"/poc"
+        }
+    ],
+    "command":[
+        "/share/hello2.wasm"
+    ]
+}
